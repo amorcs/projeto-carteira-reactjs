@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const ToggleLabel = styled.span`
-  color: ${props=> props.theme.colors.white}
+  color: ${props=> props.theme.colors.white};
 `;
 
 export const ToggSelector = styled(Switch).attrs<ReactSwitchProps>(
